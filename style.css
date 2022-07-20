@@ -9,7 +9,18 @@
     background-size: cover;
 }
 
-.cover-image {
+
+
+.banner-container {
+    display: flex;
+    justify-content: space-evenly;
     width: 80%;
-    background-size: cover;
+    height: 80vw;
+    background-color: black;
+    color: azure;
+    align-items: center;
+}
+
+.top-cover {
+    margin: 5vw;
 }
