@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-body html {
-    font-family: 'Poppins', sans-serif;
+.top-cover {
+    width: 80%;
+    background-size: cover;
 }
 
 .cover-image {
+    width: 80%;
     background-size: cover;
 }
