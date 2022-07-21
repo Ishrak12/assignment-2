@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
 
 
@@ -10,13 +12,13 @@
 .banner-container {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    max-width: 1240px;
     height: 38vw;
     background-color: #161616;
     color: azure;
     align-items: center;
     border-radius: 30px;
-    margin: 10vw;
+    margin: 0 auto;
     margin-top: 3vw;
 }
 
@@ -40,14 +42,15 @@
 
 
 .banner-button {
-    background-color: crimson;
+    background-color: #DD0000;
     border: none;
     width: 8vw;
     height: 3vw;
     color: aliceblue;
     border-radius: 5px;
     padding: 1vw;
-    margin-top: 1vw;
+    margin-top: 2vw;
+
 
 
 }
@@ -57,6 +60,19 @@
 
 }
 
+.top-hr {
+    width: 70%;
+    margin: 3vw;
+    margin-left: 14vw;
+}
+
+.blog-area {
+    border: 3px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
 
 .match {
     border: 2px solid gray;
@@ -94,10 +110,65 @@
         padding: 1vw;
         margin-top: 1vw;
         font-size: 1.5vw;
+        justify-content: center;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        max-width: 334px;
+        height: 472px;
+        background-color: #161616;
+        color: azure;
+        align-items: center;
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 3vw;
+    }
+
+    .cover-image {
+
+        width: 55vw;
+        height: 55vw;
+        border: 2px solid gray;
+
+        margin-right: 5vw;
+        padding-top: 1.2vw;
+        min-width: 10%;
+
+    }
+
+}
+
+
+/* Medium Device */
+
+@media screen and(max-width:768px) {
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .top-cover {
+        font-size: 1.7vw;
+    }
+
+    .banner-button {
+        background-color: crimson;
+        border: none;
+        width: 12vw;
+        height: 5vw;
+        color: aliceblue;
+        border-radius: 5px;
+        padding: 1vw;
+        margin-top: 1vw;
+        font-size: 1.5vw;
     }
 }
 
+
 /* large device */
-@media screen and(min-width:577px) and (max-width:992px) {
+@media screen and (max-width:992px) {
     .match
 }
