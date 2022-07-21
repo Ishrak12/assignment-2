@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
-    height: 40vw;
+    height: 38vw;
     background-color: #161616;
     color: azure;
     align-items: center;
@@ -24,6 +24,8 @@
     margin: 2vw;
     padding: 5vw;
 
+
+
 }
 
 .cover-image {
@@ -31,15 +33,11 @@
     width: 30vw;
     height: 37vw;
     margin-right: 5vw;
-    padding-top: 3vw;
+    padding-top: 1.2vw;
 
 
 }
 
-.banner-heading {
-    font-size: 50px;
-
-}
 
 .banner-button {
     background-color: crimson;
@@ -57,4 +55,49 @@
 .banner-button:hover {
     background-color: orangered;
 
+}
+
+
+.match {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.match img {
+    width: 75%;
+}
+
+/* small devices */
+@media screen and (max-width:576px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .top-cover {
+        font-size: 1.7vw;
+    }
+
+    .banner-button {
+        background-color: crimson;
+        border: none;
+        width: 12vw;
+        height: 5vw;
+        color: aliceblue;
+        border-radius: 5px;
+        padding: 1vw;
+        margin-top: 1vw;
+        font-size: 1.5vw;
+    }
+}
+
+/* large device */
+@media screen and(min-width:577px) and (max-width:992px) {
+    .match
 }
