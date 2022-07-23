@@ -292,6 +292,7 @@ hr {
 
     .top-cover {
         font-size: 1.7vw;
+        align-items: center;
     }
 
     .banner-button {
@@ -305,6 +306,7 @@ hr {
         margin-top: 1vw;
         font-size: 1.5vw;
         justify-content: center;
+        align-items: center;
     }
 
     .banner-button:hover {
@@ -329,7 +331,7 @@ hr {
 
         width: 55vw;
         height: 55vw;
-        border: 2px solid gray;
+
 
         margin-right: 5vw;
         padding-top: 1.2vw;
@@ -345,6 +347,11 @@ hr {
         flex-direction: column;
         width: 100%;
         align-items: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
     }
 }
 
