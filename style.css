@@ -140,9 +140,15 @@
 
 }
 
+.two-flag {
+    display: flex;
+    column-gap: 5%;
+
+}
+
 
 .transfer-button {
-    border: none background-color: #253c7c;
+    align-items: center;
 }
 
 .clock-icon {
